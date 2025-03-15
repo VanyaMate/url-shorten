@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81d51f12-aa36-4d33-a7e0-aa54fb906c85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/PostgreSQL/PostgreSQLQueryBuilder/PostgreSQLQueryBuilder.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/PostgreSQL/PostgreSQLQueryBuilder/implementations/PostgreSQLQueryBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlAnalytics/UrlAnalytics.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlAnalytics/implementations/PgUrlAnalytics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlRedirect/UrlRedirect.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlRedirect/implementations/PgUrlRedirect.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlShorten/UrlShorten.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlShorten/implementations/PgUrlShorten.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/domain/const/tableNames.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/nest/services/pg/pg.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/nest/services/pg/pg.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/src/analytics/DomainUrlAnalytics/DomainUrlAnalytics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/src/analytics/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/src/redirect/DomainRedirect/DomainRedirect.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/src/redirect/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/src/url/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2uLAeJAkSxkr4yncf7mkoAYMtje" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/web/composite/url-shorten/client/src/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.27393076&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\dev\\web\\composite\\url-shorten\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\web\composite\url-shorten\client\src\app" />
+      <recent name="C:\dev\web\composite\url-shorten\client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\web\composite\url-shorten\server\src\domain\PostgreSQL\PostgreSQLQueryBuilder" />
+      <recent name="C:\dev\web\composite\url-shorten\types\src" />
+      <recent name="C:\dev\web\composite\url-shorten\src\client" />
+      <recent name="C:\dev\web\composite\url-shorten\types\link\DomainLinkCreateData" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19416.2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81d51f12-aa36-4d33-a7e0-aa54fb906c85" name="Changes" comment="" />
+      <created>1742017574311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742017574311</updated>
+      <workItem from="1742017575353" duration="3845000" />
+      <workItem from="1742021784664" duration="70000" />
+      <workItem from="1742021869657" duration="262000" />
+      <workItem from="1742022146911" duration="26000" />
+      <workItem from="1742022180628" duration="46000" />
+      <workItem from="1742022237049" duration="93000" />
+      <workItem from="1742022339223" duration="9080000" />
+      <workItem from="1742034165311" duration="32000" />
+      <workItem from="1742034212992" duration="30000" />
+      <workItem from="1742034290497" duration="9000" />
+      <workItem from="1742034306606" duration="125000" />
+      <workItem from="1742034653284" duration="4592000" />
+      <workItem from="1742039471782" duration="12313000" />
+      <workItem from="1742056733625" duration="4351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/server/app.module.js" />
+        <option value="$PROJECT_DIR$/src/server/main.js" />
+        <option value="$PROJECT_DIR$/src/client/app.js" />
+        <option value="$PROJECT_DIR$/src/server/app.controller.js" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/src/domain/UrlRedirect/UrlRedirect.interface.ts</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
