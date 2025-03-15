@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d51f12-aa36-4d33-a7e0-aa54fb906c85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/PostgreSQL/PostgreSQLQueryBuilder/PostgreSQLQueryBuilder.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/PostgreSQL/PostgreSQLQueryBuilder/implementations/PostgreSQLQueryBuilder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlAnalytics/UrlAnalytics.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlAnalytics/implementations/PgUrlAnalytics.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlRedirect/UrlRedirect.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlRedirect/implementations/PgUrlRedirect.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlShorten/UrlShorten.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/UrlShorten/implementations/PgUrlShorten.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/domain/const/tableNames.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/nest/services/pg/pg.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/nest/services/pg/pg.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/src/analytics/DomainUrlAnalytics/DomainUrlAnalytics.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/src/analytics/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/src/redirect/DomainRedirect/DomainRedirect.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/src/redirect/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/src/url/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
@@ -104,7 +82,7 @@
       <workItem from="1742034306606" duration="125000" />
       <workItem from="1742034653284" duration="4592000" />
       <workItem from="1742039471782" duration="12313000" />
-      <workItem from="1742056733625" duration="4351000" />
+      <workItem from="1742056733625" duration="5023000" />
     </task>
     <servers />
   </component>
