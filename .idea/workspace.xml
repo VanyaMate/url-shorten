@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d51f12-aa36-4d33-a7e0-aa54fb906c85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/actions/url-shorten/getUrlInfo.action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/models/url-info.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/feature/url-shorten/GoToInfoLink/GoToInfoLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/InfoPage/InfoPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/InfoPage/InfoPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/InfoPage/InfoPageAsync.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/nest/redirect.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/nest/redirect.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/actions/url-shorten/getUrlAnalytics.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/actions/url-shorten/getUrlAnalytics.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/router/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/router/AppRouter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/feature/url-shorten/GoToShortenLink/GoToAnalyticsLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/feature/url-shorten/GoToAnalyticsLink/GoToAnalyticsLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/widget/url-shorten/UrlList/UrlList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/widget/url-shorten/UrlList/UrlList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" afterPath="$PROJECT_DIR$/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/domain/UrlAnalytics/implementations/PgUrlAnalytics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/domain/UrlAnalytics/implementations/PgUrlAnalytics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/domain/UrlRedirect/implementations/PgUrlRedirect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/domain/UrlRedirect/implementations/PgUrlRedirect.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/domain/UrlShorten/UrlShorten.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/domain/UrlShorten/UrlShorten.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/domain/UrlShorten/implementations/PgUrlShorten.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/domain/UrlShorten/implementations/PgUrlShorten.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-analytics.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-analytics.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-redirect.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-redirect.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/nest/api/v1/url-shorten/url-shorten.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types" beforeDir="false" afterPath="$PROJECT_DIR$/types" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/types/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +61,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/web/composite/url-shorten/client/src/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/web/composite/url-shorten/client/src/pages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -44,14 +75,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\web\composite\url-shorten\client\src\pages" />
+      <recent name="C:\dev\web\composite\url-shorten\client\src\app\actions\url-shorten" />
       <recent name="C:\dev\web\composite\url-shorten\client\src\app" />
       <recent name="C:\dev\web\composite\url-shorten\client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\web\composite\url-shorten\client\src\feature\url-shorten\GoToAnalyticsLink" />
+      <recent name="C:\dev\web\composite\url-shorten\client\src\feature\url-shorten" />
+      <recent name="C:\dev\web\composite\url-shorten\client\src\widget\url-shorten" />
       <recent name="C:\dev\web\composite\url-shorten\server\src\domain\PostgreSQL\PostgreSQLQueryBuilder" />
       <recent name="C:\dev\web\composite\url-shorten\types\src" />
-      <recent name="C:\dev\web\composite\url-shorten\src\client" />
-      <recent name="C:\dev\web\composite\url-shorten\types\link\DomainLinkCreateData" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -82,20 +116,17 @@
       <workItem from="1742034306606" duration="125000" />
       <workItem from="1742034653284" duration="4592000" />
       <workItem from="1742039471782" duration="12313000" />
-      <workItem from="1742056733625" duration="5023000" />
+      <workItem from="1742056733625" duration="5108000" />
+      <workItem from="1742097969817" duration="5333000" />
+      <workItem from="1742103408805" duration="11477000" />
+      <workItem from="1742115269291" duration="4563000" />
+      <workItem from="1742119940688" duration="149000" />
+      <workItem from="1742120618875" duration="319000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/server/app.module.js" />
-        <option value="$PROJECT_DIR$/src/server/main.js" />
-        <option value="$PROJECT_DIR$/src/client/app.js" />
-        <option value="$PROJECT_DIR$/src/server/app.controller.js" />
-      </list>
-    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
